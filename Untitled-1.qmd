@@ -1,0 +1,17 @@
+
+---
+title: "Training Quarto Document"
+format: html
+---
+
+
+
+```{r}
+#| label: load-packages
+#| include: false
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Meet the Penguins
+The `penguins` data from the [**palmerpenguins**] package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.
